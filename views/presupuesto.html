@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto</title>
+    <link rel="stylesheet" href="./../estilos/estilos.css">
+</head>
+<body>
+    <header class="header-inicio-presupuesto">
+        <div class="fondo-imagen-presupuesto">
+            <nav class="nav-principal">
+                <div class="logo-completo-header">
+                    <a href="./index.html"><img src="./../assets/imagenes/logo_completo_blanco.png" alt="logo completo" class="logo"></a>
+                </div>
+                <div class="lista-navegador">
+                    <ul>
+                        <li><a href="./../index.html">INICIO</a></li>
+                        <li><a href="./../views/productos.html">GALERIA</a></li>
+                        <li><a href="./presupuesto.html" class="nav-presupuesto">PRESUPUESTO</a></li>
+                        <li><a href="./../views/contacto.html" >CONTACTO</a></li>
+                    </ul>
+                </div>
+                <div class="redes-sociales">
+                    <a href="https://www.facebook.com/deperrosadiestramiento" target="_blank"><img src="./../assets/imagenes/icons8-facebook-nuevo-50.png" alt="logo de facebook" class="logos"></a>
+                    <a href="https://www.instagram.com/elsa_apolo/" target="_blank"><img src="./../assets/imagenes/icons8-instagram-50.png" alt="logo de instagram" class="logos"></a>
+                    <a href="https://www.google.com/intl/es/gmail/about/" target="_blank"><img src="./../assets/imagenes/icons8-correo-50.png" alt="logo de correo" class="logos"></a>
+                </div>
+            </nav>
+            <div class="contenedor-titulo-header">
+                <h1 class="titulo-principal">Pequeños en progreso</h1>
+                <a href="./contacto.html" class="boton-principal-header">¡¡Contacta con nosotros!!</a>
+            </div>    
+        </div>  
+    </header>
+    <main>
+        <section class="section2-presupuesto">
+            <h3 class="titulo-encabezado-h3-productos">Programa formativo que abarca los primeros meses de la vida de un cachorro desde que llega a casa.</h3>
+            <p class="titulo-fondo-azul-productos">TU CACHORRO & TÚ</p>
+            <img src="./../assets/imagenes/deperros-01-min-1.png" alt="logo de perro" class="logo-perro-grande">
+        </section>
+        <section class="section3-presupuesto">
+            <div class="contenedor-imagen"></div>
+            <div class="formulario-presupuesto">
+                <div class="contenedor-titulo-formulario">
+                    <h2 class="consulta-formulario">¿Alguna Consulta?</h2>
+                    <p>Contacta con nosotros si quieres mejorar la relación con tu perro y/o ayudarle a resolver sus problemas. Pide información sobre nuestros cursos individuales y grupales y nuestra formación online y presencial.</p>
+                </div>
+                <form action="#" method="post" class="formulario">
+                    <label for="name">Nombre:</label>
+                    <input type="text" name="name" id="name" required class="dimensiones">
+                    <label for="apellido">Apeliido:</label>
+                    <input type="text" name="apellido" id="apellido" required class="dimensiones">
+                    <label for="correo">Email:</label>
+                    <input type="email" name="correo" id="correo" required class="dimensiones">
+                    <label for="tel">Telefono:</label>
+                    <input type="tel" name="tel" id="tel" class="dimensiones">
+                    <label for="comentario">¡Dejanos tus dudas!</label>
+                    <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Escribe aqui..." required class="caja-texto"></textarea>
+                    <label for="privacidad">Acepta la politica de privacidad de la empresa</label> <input type="checkbox" name="privacidad" id="privacidad" required>
+                    <button type="submit" class="boton-formulario">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-presupuesto">
+        <img src="./../assets/imagenes/logo_completo_blanco.png" alt="logo completo" class="logo-footer-medidas">
+        <div class="redes-footer">
+            <a href="https://www.facebook.com/deperrosadiestramiento" target="_blank"><img src="./../assets/imagenes/icons8-facebook-nuevo-50.png" alt="logo de facebook" class="logos-footer"></a>
+            <a href="https://www.instagram.com/elsa_apolo/" target="_blank"><img src="./../assets/imagenes/icons8-instagram-50.png" alt="logo de instagram" class="logos-footer"></a>
+            <a href="https://www.google.com/intl/es/gmail/about/" target="_blank"><img src="./../assets/imagenes/icons8-correo-50.png" alt="logo de correo" class="logos-footer"></a>
+        </div>
+        <p class="copy-footer">&copy; 2024 Tu Nombre. Todos los derechos reservados.</p>
+        <p class="parrafo-direccion-footer">Direccion: La garriga - Barcelona  Teléfono: 999222888 </p>
+    </footer>
+</body>
+</html>

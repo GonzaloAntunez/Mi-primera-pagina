@@ -1,0 +1,989 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+/* ------------------ Header inicio ----------------- */
+.header-inicio{
+    width: 100%;
+    height: 700px;
+    background-color: #2BB8C9;
+    border-radius: 20px;
+}
+.fondo-imagen-header{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./../assets/imagenes/australian-shepherd.jpg);
+    border-radius: 20px;
+    animation: header 1.5s 1;
+    animation-timing-function: line;
+    position: relative;
+}
+
+@keyframes header {
+    from{top: 100px;}
+    to{top: 0px;}
+        
+}
+
+.logo-completo-header{
+    width: 150px;
+    height: 150px;
+}
+
+.logo{
+    width: 150px;
+    height: 113px;
+    margin-left: 20px;
+}
+
+.nav-principal{
+    display: flex;
+    justify-content:space-between;
+    height: 180px;
+    width: 100%;
+    align-items: center;
+}
+ .redes-sociales{
+    margin-right: 50px;
+    display: flex;
+ }
+
+ .logos{
+    width: 40px;
+    margin: 0 3px;
+ }
+
+ .logos:hover{
+    border-radius: 50%;
+    border: 2px solid rgb(252, 250, 250);
+ }
+
+ .lista-navegador ul{
+    display: flex;
+ }
+
+ .lista-navegador ul li{
+    margin: 0 50px;
+    list-style: none;
+ }
+
+ .lista-navegador ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 15px;
+ }
+
+ .lista-navegador ul li a:hover{
+    border: 1px solid white;
+    border-radius: 10px;
+ }
+
+.nav-inicio{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.432);
+}
+
+.contenedor-titulo-header{
+   width: 550px;
+   padding: 30px;
+   position: relative;
+   top:200px;
+   left: 30px;
+   border-radius: 20px;
+   color: white;
+   /* display: flex; */
+}
+
+.titulo-principal{
+    font-size: 60px;
+    font-weight: 500;
+    border-right:  3px solid white;
+}
+
+.boton-principal-header{
+    position:relative;
+    top: 40px;
+    left: 40px;
+    padding: 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    font-weight: 600;
+}
+.boton-principal-header:hover{
+   background-color: rgba(255, 255, 255, 0.219);
+}
+
+/* -------------- Main inicio -------------------- */  
+
+.section1{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.section1-img1{
+    width: 30%;
+    height: 480px;
+    background-image: url(./../assets/imagenes/banner_educacion-2.jpeg);
+    background-size: cover;
+    border-radius: 20px;
+    margin:0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+}
+
+.section1-img2{
+    width: 30%;
+    height: 480px;
+    background-image: url(./../assets/imagenes/banner_cachorros-2-1.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    margin:0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+}
+
+.section1-img3{
+    width: 30%;
+    height: 480px;
+    background-image: url(./../assets/imagenes/banner_excursiones-1.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    margin:0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+}
+
+.banner1-principal{
+    width: 100%;
+    border-radius: 20px ;
+}
+
+.logo-perro-pequeño{
+    width: 106px;
+    height: 106px;
+}
+
+.titulo-h4-imagen{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.parrafo-imagen-pequeña{
+    color:  white;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.enlace-imagen-pequeña{
+    padding: 0 40px;
+    border: 1px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    margin-top: 40px;
+}
+
+.enlace-imagen-pequeña:hover{
+    background-color: rgba(242, 243, 243, 0.164);
+}
+
+.section2{
+    width: 100%;
+    height: 410px;
+    background-color: #2BB8C9;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size:contain;
+    position: relative;
+}
+
+.logo-perro-grande{
+    width: 450px;
+    height: auto;
+}
+
+.titulo-fondo-azul{
+    color: white;
+}
+
+.titulo-encabezado-h3{
+    position: absolute;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+
+.section3{
+    width: 100%;
+    height: 1100px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.confianza-seguridad-inicio{
+    width: 50%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.columna-seguridad-inicio{
+    width: 310px;
+    /* height: 100%; */
+}
+
+.titulo-confianza{
+    font-size: 50px;
+    font-weight: 700;
+    color: #5F7577;
+}
+
+.parrafo-seguridad{
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+.numero-1{
+    width: 310px;
+    /* height: 100%; */
+    display: flex;
+    margin: 25px 0;
+} 
+
+.size-numero-inicio{
+    font-size: 90px;
+    color: #5F7577;
+}
+.gilda-display-regular {
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.parrafo-numero{
+    width: 205px;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+.titulo-cachorro{
+    font-size: 30px;
+    color: #5F7577;
+}
+
+.caja-parrafo{
+    margin-left: 15px;
+    width: 150px;
+    /* height: 200px; */
+}
+
+.boton-contacta-inicial{
+    text-decoration: none;
+    padding: 15px;
+    color: #5F7577;
+    font-size: 25px;
+    border: 1px solid #5F7577;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.boton-contacta-inicial:hover{
+    background-color:#5f7577 ;
+    color: white;
+}
+
+.imagen-confianza-seguridad{
+    background-image: url(./../assets/imagenes/EAD220911_DSC0166_2-min.jpg);
+    width: 50%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px 0 0 20px;
+}
+
+/* --------------------- Footer inicio ------------ */
+
+.footer-inicio{
+    width: 100%;
+    height: 550px;
+    background-color: #2BB8C9;
+    margin-top: 40px;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-footer-medidas{
+    width: 20%;
+    height: auto;
+}
+
+.logos-footer:hover{
+    border-radius: 50%;
+    border: 2px solid rgb(252, 250, 250);
+}
+
+.redes-footer{
+    margin-top: 30px;
+}
+
+.copy-footer{
+    margin-top: 60px;
+    color: white;
+}
+
+/* ------------- Estilos Galeria --------------- */
+
+.nav-galeria{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.432);
+}
+
+.fondo-imagen-productos{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./../assets/imagenes/rough-collie.jpg);
+    border-radius: 20px;
+    animation: header 1.5s 1;
+    animation-timing-function:line;
+    position: relative;
+}
+
+.section2-galeria{
+    width: 100%;
+    height: 410px;
+    background-color: #2BB8C9;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size:contain;
+    position: relative;
+    margin-top: 40px;
+}
+
+.titulo-encabezado-h3-productos{
+    
+    position: absolute;
+    font-size: 35px;
+    color: white;
+}
+
+.titulo-fondo-azul-productos{
+    position: relative;
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    color: white;
+}
+
+.section3-productos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria-foto{
+    width: 350px;
+    height: 100%;
+    padding: 5px;
+    border-radius:10px;
+}
+
+.titulo-galeria-fotos{
+    width: 100%;
+    height: 100px;
+    margin: 40px 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-galeria{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+    color: #5f7577;
+}
+
+/* ---------- Estilos presupuesto --------------- */
+.header-inicio-presupuesto{
+    width: 100%;
+    height: 700px;
+    background-color: #908CC3;
+    border-radius: 20px;
+}
+.nav-presupuesto{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.432);
+}
+
+.fondo-imagen-presupuesto{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./../assets/imagenes/EAD210415_DSC0474-min-min-min.jpg);
+    border-radius: 20px;
+    animation: header 1.5s 1;
+    animation-timing-function: line;
+    position: relative;
+}
+
+.section2-presupuesto{
+    width: 100%;
+    height: 410px;
+    background-color: #908CC3;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size:contain;
+    position: relative;
+    margin-top: 40px;
+}
+
+.section3-presupuesto{
+    width: 100%;
+    height: 730px;
+    background-color: #5F7577;
+    display: flex;
+    margin-top: 40px;
+}
+
+.contenedor-imagen{
+    width: 50%;
+    height: 100%;
+    background-image: url(./../assets/imagenes/inicio01-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 20px 20px 0;
+}
+
+.formulario-presupuesto{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.contenedor-titulo-formulario{
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+.consulta-formulario{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.dimensiones{
+    border-radius: 6px;
+    height: 22px;
+}
+
+.caja-texto{
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.boton-formulario{
+    margin-top: 30px;
+    padding: 5px 30px;
+    border-radius: 20px;
+}
+
+label{
+    color: white;
+}
+
+.footer-presupuesto{
+    width: 100%;
+    height: 550px;
+    background-color: #908CC3;
+    margin-top: 40px;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+/* ------------ Estilos contacto ------- */
+.nav-contacto{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.432);
+}
+
+.fondo-imagen-presupuesto-contacto{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./../assets/imagenes/EAD200616_DSC1045-min-min-min.jpg);
+    border-radius: 20px;
+    animation: header 1.5s 1;
+    animation-timing-function: line;
+    position: relative;
+    background-position: center;
+}
+
+.contacta-con-nosotros{
+    width: 100%;
+    height: 800px;
+    background-color: #5F7577;
+    margin-top: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.contacto{
+    width: 70%;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.titulo-contacto{
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+.parrafo-contacto{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.footer-contacto{
+    width: 100%;
+    height: 550px;
+    background-color: #908CC3;
+    margin-top: 40px;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mapa{
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+}
+
+.parrafo-direccion{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.parrafo-direccion-footer{
+    color: white;
+    margin-top: 20px;
+}
+/* ---------- estilos tablet -------- */
+@media (min-width: 601px) and (max-width: 1243px){
+    .nav-principal{
+        width: 100%;
+    }
+    .lista-navegador ul li a{
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 10px;
+        margin: 0 0px;
+     }
+     .lista-navegador ul li{
+        margin: 8px;
+    }
+    .redes-sociales{
+        display: none;
+    }
+    .section1{
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 100%;
+        padding: 20px;
+    }
+    .section1-img1, .section1-img2, .section1-img3{
+        width: 100%;
+        margin: 10px 0px; 
+    }
+
+    .titulo-encabezado-h3{
+        font-size: 40px;
+    }
+    .imagen-confianza-seguridad{
+        background-position: center;
+    }
+    .footer-inicio{
+        height: 400px;
+    }
+
+    /* ------estilos galeria tablet------ */
+
+    .titulo-encabezado-h3-productos{
+        text-align: center;
+    }
+    .titulo-fondo-azul-productos{
+            display: none;
+    }
+
+    .section2-galeria{
+        justify-content: center;
+    }
+
+    .footer-presupuesto{
+        height: 400px;
+    }
+   
+    .section3-presupuesto{
+        align-items: center;
+    }
+    .section3-presupuesto{
+        flex-direction: column;
+        height: 100%;
+    }
+    .contenedor-imagen{
+        height: 300px;
+        width: 100%;
+        border-radius: none;
+    }
+    .contenedor-titulo-formulario{
+        width: 500px;
+    }
+    /* estilos contacto */
+    .footer-contacto{
+        height: 400px;
+    }
+    
+}
+/* ----------- estilos movil ------- */
+/* -------------- index ---------------- */
+@media (max-width: 600px){
+
+    .logo-completo-header{
+        display: none;       
+    }
+    .nav-principal{
+       font-size: x-small;
+       
+       height: 80px;
+       justify-content: center;
+    }
+   
+    .lista-navegador ul li{
+        margin: 0;
+    }
+    .lista-navegador ul li a{
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 10px;
+        margin: 0 5px;
+     }
+     .boton-principal-header{
+        display: none;
+     }
+    .logo{
+        display: none;
+    }
+    .redes-sociales{
+        display: none;
+    }
+    .fondo-imagen-header{
+        background-position: center;
+        height: 500px;
+        align-items: end;
+        
+    }
+    .titulo-principal{
+        width: 400px;
+        font-size: 40px;
+    }
+    .header-inicio{
+        height: 500px;
+    }
+    .contenedor-titulo-header{
+        width: 250px;
+        padding: 0; 
+        position: relative;
+        left: -10px;
+
+    }
+    .titulo-principal{
+        font-size: 30px;
+        border: none;
+        width: 250px;
+        height: 80px;
+        text-align: center;
+        padding: 5px;
+        border-right: 1px solid white ;
+    }
+    .section1-img1, .section1-img2, .section1-img3{
+        width: 100%;
+        margin: 15px;
+        height: 100%;
+    }
+    .section1-img1{
+        margin-top: 30px;
+    }
+    .main-principal{
+        height: 100%;
+        width: 100%;
+    }
+    .section1{
+        height: 100%;
+    }
+
+    .logo-perro-pequeño{
+        margin-top: 20px;
+    }
+    .enlace-imagen-pequeña{
+        margin: 20px;
+    }
+    .section2{
+        height: 100%;
+        display: flex;
+        margin-top: 20px;
+    }
+    .parrafo-imagen-pequeña{
+        font-size: medium;
+    }
+    
+    .titulo-encabezado-h3{
+        width: 80%;
+        height: 80%;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .titulo-fondo-azul{
+        display: none;
+    }
+    .logo-perro-grande{
+        width: 80%;
+        height: 80%;  
+    }
+
+    .section3{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    .confianza-seguridad-inicio{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .imagen-confianza-seguridad{
+        width: 100%;
+        height: 300px;
+        border-radius: 20px;
+        margin-top: 30px;
+    }
+    .footer-inicio{
+        height: 50%;
+        width: 100%;
+    }
+    .parrafo-direccion-footer{
+        margin-bottom: 10px;
+    }
+
+    .copy-footer{
+        margin-top: 10px;
+    }
+
+
+    /* ------------ galeria ------------ */
+    .fondo-imagen-productos{
+        background-position: center;
+        height: 500px;
+        align-items: end;
+    }
+    .section2-galeria{
+        height: 100%;
+        margin-top: 20px;
+    }
+    .titulo-encabezado-h3-productos{
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .titulo-fondo-azul-productos{
+        position: relative;
+        left: 0;
+        top: 240px;
+    }
+    .titulo-galeria-fotos{
+        width: 100%;
+       text-align: center;
+    }
+    .section3-productos{
+        width: 100%;
+        display: flex;
+        flex-direction: none;
+        justify-content: none;
+        flex-wrap: none;
+    }
+    .galeria-foto{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        border-radius:20px;
+    }
+    /* ----------------- presupuesto------------- */
+    .fondo-imagen-presupuesto{
+        background-position: center;
+        height: 500px;
+        align-items: end;
+    }
+    .header-inicio-presupuesto{
+        height: 500px;
+    }
+    .section3-presupuesto{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .formulario-presupuesto{
+        width: 100%;
+    }
+    .boton-formulario{
+        margin-bottom: 20px;
+    }
+    .section2-presupuesto{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .titulo-encabezado-h3-productos{
+        text-align: center;
+    }
+    .section2-presupuesto{
+        display: flex;
+        align-items:center;
+    }
+    .logo-perro-grande{
+        width: 100%;
+        height: auto;
+    }
+    .consulta-formulario{
+        width: 300px;
+    }
+    .contenedor-titulo-formulario{
+        width: 300px;
+    }
+    .contenedor-imagen{
+        display: none;
+    }
+    .footer-presupuesto{
+        height: 50%;
+        width: 100%;
+    }
+    .parrafo-direccion-footer{
+        margin-bottom: 10px;
+    }
+    .copy-footer{
+        margin-top: 10px;
+    }
+
+    /* ----------------- contacto movil --------------- */
+    .footer-contacto{
+        height: 50%;
+        width: 100%;
+    }
+    .section2-presupuesto{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-perro-grande{
+        width: 80%;
+        height: 80%;  
+    }
+    .parrafo-direccion-footer{
+        margin-bottom: 10px;
+    }
+    .copy-footer{
+        margin-top: 10px;
+    }
+}
